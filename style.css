@@ -103,3 +103,15 @@ main{
     background-color: #9B00FF;
     margin-bottom: 10px;
 }
+
+@media only screen and ( max-width:1000px) {
+    .development{
+        flex-direction: column;
+        width: 100%;
+    }
+    .development>div {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
