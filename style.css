@@ -97,10 +97,8 @@ main{
     flex-direction: column;
 }
 
-.name figure{
-    width: 150px;
-    height: 150px;
-    background-color: #9B00FF;
+.name img{
+    width: 130px;
     margin-bottom: 10px;
 }
 
